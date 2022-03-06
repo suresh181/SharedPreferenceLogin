@@ -1,8 +1,9 @@
-package com.example.sharedpreferenceslogin
+package com.example.sharedpreferenceslogin.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.sharedpreferenceslogin.Adapter.MyGridAdapter
+import com.example.sharedpreferenceslogin.R
 import com.example.sharedpreferenceslogin.databinding.ActivityMain2Binding
 
 class MainActivity2 : AppCompatActivity() {

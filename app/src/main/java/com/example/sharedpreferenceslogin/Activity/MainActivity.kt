@@ -1,4 +1,4 @@
-package com.example.sharedpreferenceslogin
+package com.example.sharedpreferenceslogin.Activity
 
 import android.content.Context
 import android.content.Intent
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                 editor.commit()
             }
 
-            val intent = Intent(this,MainActivity2::class.java)
+            val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
 
